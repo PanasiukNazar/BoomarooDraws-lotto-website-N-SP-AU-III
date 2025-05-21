@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- ===============================================-->
+        <!--    Document Title-->
+        <!-- ===============================================-->
+        <title>BoomarooDraws</title>
+
+        <!-- ===============================================-->
+        <!--    Favicons-->
+        <!-- ===============================================-->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/img/favicons/apple-touch-icon.png"
+        />
+        <meta
+            name="description"
+            content="Get the latest AU Lotto results, winning numbers, draw schedules, and news. Play responsibly and stay updated with official Australian Lotto information."
+        />
+
+        <!-- Keywords -->
+        <meta
+            name="keywords"
+            content="AU Lotto, Australian Lotto, Lotto results, Lotto draws, Lotto numbers, winning numbers, play lotto, official lotto, lotto Australia"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/img/favicons/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="assets/img/favicons/favicon-16x16.png"
+        />
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="assets/img/favicons/favicon.ico"
+        />
+        <link rel="manifest" href="assets/img/favicons/manifest.json" />
+        <meta
+            name="msapplication-TileImage"
+            content="assets/img/favicons/mstile-150x150.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="author" content="AU Lotto Team" />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="description"
+            content="Get the latest AU Lotto results, winning numbers, draw schedules, and news. Play responsibly and stay updated with official Australian Lotto information."
+        />
+
+        <!-- ===============================================-->
+        <!--    Stylesheets-->
+        <!-- ===============================================-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&amp;display=swap"
+            rel="stylesheet"
+        />
+        <link href="vendors/prism/prism.css" rel="stylesheet" />
+        <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet" />
+        <link href="assets/css/theme.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- ===============================================-->
+        <!--    Main Content-->
+        <!-- ===============================================-->
+        <main class="main" id="top">
+            <nav
+                class="navbar navbar-expand-lg fixed-top navbar-dark"
+                data-navbar-on-scroll="data-navbar-on-scroll"
+            >
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <h2 style="color: #fff; font-weight: bold">
+                            BoomarooDraws
+                        </h2>
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <i class="fa-solid fa-bars text-white fs-3"></i>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="index.html"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="index.html#about"
+                                    >About</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="index.html#blogs"
+                                    >News</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="index.html#clients"
+                                    >Testimonials</a
+                                >
+                            </li>
+                            <li class="nav-item mt-2 mt-lg-0">
+                                <a
+                                    class="nav-link btn btn-light text-black w-md-25 w-50 w-lg-100"
+                                    aria-current="page"
+                                    href="index.html#contact"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="bg-dark">
+                <img
+                    class="img-fluid position-absolute end-0"
+                    src="assets/img/hero/hero-bg.png"
+                    alt=""
+                />
+
+                <!-- ============================================-->
+                <!-- <section> begin ============================-->
+                <section>
+                    <div class="container">
+                        <div class="row align-items-center py-lg-8 py-6">
+                            <div class="col-lg-6 text-center text-lg-start">
+                                <h1 class="text-white fs-5 fs-xl-6">
+                                    Check Latest Lotto Results and Winning
+                                    Numbers
+                                </h1>
+                                <p class="text-white py-lg-3 py-2">
+                                    Stay updated with the most recent lotto
+                                    results, draws, and winning combinations.
+                                    Play responsibly and stay informed with
+                                    BoomarooDraws.
+                                </p>
+                            </div>
+                            <div
+                                class="col-lg-6 text-center text-lg-end mt-3 mt-lg-0"
+                            >
+                                <img
+                                    class="img-fluid"
+                                    src="assets/img/hero/hero-graphics.png"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of .container-->
+                </section>
+                <!-- <section> close ============================-->
+                <!-- ============================================-->
+            </div>
+
+            <div
+                id="age-ticker"
+                style="
+                    background: #65e4a3;
+                    color: #fff;
+                    padding: 10px 0;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    font-weight: bold;
+                    font-size: 16px;
+                "
+            >
+                <div
+                    id="ticker-text"
+                    style="
+                        display: inline-block;
+                        padding-left: 100%;
+                        animation: ticker-scroll 40s linear infinite;
+                        text-transform: uppercase;
+                    "
+                >
+                    18 and up only. Please play responsibly! &nbsp;&nbsp;&nbsp;
+                    18 and up only. Please play responsibly! &nbsp;&nbsp;&nbsp;
+                    18 and up only. Please play responsibly! &nbsp;&nbsp;&nbsp;
+                    18 and up only. Please play responsibly! &nbsp;&nbsp;&nbsp;
+                    18 and up only. Please play responsibly! &nbsp;&nbsp;&nbsp;
+                    18 and up only. Please play responsibly! &nbsp;&nbsp;&nbsp;
+                    18 and up only. Please play responsibly! &nbsp;&nbsp;&nbsp;
+                    18 and up only. Please play responsibly! &nbsp;&nbsp;&nbsp;
+                    18 and up only. Please play responsibly! &nbsp;&nbsp;&nbsp;
+                    18 and up only. Please play responsibly!
+                </div>
+            </div>
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section>
+                <div class="container">
+                    <p class="text-center fs-1">Our Lotto Services</p>
+                    <h2 class="mx-auto text-center fs-lg-6 fs-md-5 w-lg-75">
+                        What We Offer to Lotto Enthusiasts
+                    </h2>
+                    <div class="row gx-xl-7 mt-5">
+                        <div
+                            class="col-md-4 mb-6 mb-md-0 text-center text-md-start"
+                        >
+                            <img
+                                class="w-50 w-md-100"
+                                src="assets/img/services/1.png"
+                                alt=""
+                            />
+                            <h4 class="mt-3 my-1">Live Lotto Draw Updates</h4>
+                            <p class="fs-1 mb-0">
+                                Get real-time updates on the latest lotto draws
+                                and winning numbers right when they happen.
+                            </p>
+                        </div>
+                        <div
+                            class="col-md-4 mb-6 mb-md-0 text-center text-md-start"
+                        >
+                            <img
+                                class="w-50 w-md-100"
+                                src="assets/img/services/2.png"
+                                alt=""
+                            />
+                            <h4 class="mt-3 my-1">Lotto Results Archive</h4>
+                            <p class="fs-1 mb-0">
+                                Access past lotto results to analyze trends and
+                                previous winning combinations with ease.
+                            </p>
+                        </div>
+                        <div
+                            class="col-md-4 mb-6 mb-md-0 text-center text-md-start"
+                        >
+                            <img
+                                class="w-50 w-md-100"
+                                src="assets/img/services/3.png"
+                                alt=""
+                            />
+                            <h4 class="mt-3 my-1">Notifications and Alerts</h4>
+                            <p class="fs-1 mb-0">
+                                Subscribe to get instant notifications when the
+                                latest lotto numbers are announced.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section id="about">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img
+                                class="img-fluid"
+                                src="assets/img/offer/1.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="col-lg-6">
+                            <h1 class="fs-xl-5 fs-lg-4 fs-3">
+                                Stay Ahead with Reliable Lotto Information
+                            </h1>
+                            <ul class="list-unstyled my-xl-5 my-3">
+                                <li
+                                    class="fs-2 my-4 d-flex align-items-center gap-3 text-black"
+                                >
+                                    <i
+                                        class="fa-solid fa-circle-check fs-4 text-dark"
+                                    ></i>
+                                    <span>
+                                        Access accurate and updated lotto draw
+                                        results every day.
+                                    </span>
+                                </li>
+                                <li
+                                    class="fs-2 my-4 d-flex align-items-center gap-3 text-black"
+                                >
+                                    <i
+                                        class="fa-solid fa-circle-check fs-4 text-dark"
+                                    ></i>
+                                    <span>
+                                        Use draw archives to track winning
+                                        numbers and check your tickets anytime.
+                                    </span>
+                                </li>
+                                <li
+                                    class="fs-2 my-4 d-flex align-items-center gap-3 text-black"
+                                >
+                                    <i
+                                        class="fa-solid fa-circle-check fs-4 text-dark"
+                                    ></i>
+                                    <span>
+                                        Receive notifications so you never miss
+                                        a winning number again.
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pt-8 pt-lg-0">
+                <div class="container">
+                    <div class="d-flex flex-column-reverse flex-lg-row">
+                        <div class="col-lg-6">
+                            <h1 class="fs-lg-4 fs-md-3 fs-xl-5 mb-5">
+                                Discover the Excitement of AU Lotto with Smart
+                                Play Options
+                            </h1>
+                            <ul class="list-unstyled">
+                                <li class="fs-2 shadow-sm offer-list-item">
+                                    <i
+                                        class="fa-solid fa-leaf fs-lg-4 fs-3"
+                                    ></i>
+                                    <span
+                                        >Boost your chances with expert lotto
+                                        insights and smart number
+                                        combinations.</span
+                                    >
+                                </li>
+                                <li class="fs-2 shadow-sm offer-list-item">
+                                    <i class="fa-solid fa-eye fs-lg-4 fs-3"></i>
+                                    <span
+                                        >Stay updated on AU Lotto results,
+                                        jackpots, and upcoming draws in real
+                                        time.</span
+                                    >
+                                </li>
+                                <li class="fs-2 shadow-sm offer-list-item">
+                                    <i class="fa-solid fa-sun fs-lg-4 fs-3"></i>
+                                    <span
+                                        >Make informed choices with AI-powered
+                                        lotto stats and trend analysis.</span
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end">
+                            <img
+                                class="img-fluid"
+                                src="assets/img/offer/2.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="bg-dark pt-6" id="clients">
+                <div class="container">
+                    <div class="col-md-6">
+                        <h1 class="text-white fs-lg-5 fs-md-3 fs-2">
+                            A Smart Way to Play and Win with AU Lotto
+                        </h1>
+                    </div>
+                    <div class="swiper mt-7">
+                        <div
+                            class="swiper-container swiper-theme"
+                            data-swiper='{"slidesPerView":1,"breakpoints":{"640":{"slidesPerView":1,"spaceBetween":10},"768":{"slidesPerView":2,"spaceBetween":20},"1025":{"slidesPerView":3,"spaceBetween":40}},"spaceBetween":10,"grabCursor":true,"pagination":{"el":".swiper-pagination","clickable":true},"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev"},"loop":true,"freeMode":true,"loopedSlides":3}'
+                        >
+                            <div class="swiper-wrapper">
+                                <div
+                                    class="swiper-slide bg-white p-5 rounded-3 h-auto"
+                                >
+                                    <div
+                                        class="d-flex flex-column justify-content-between h-100"
+                                    >
+                                        <h4 class="text-black">
+                                            “Using advanced lotto strategies
+                                            helped me stay consistent and
+                                            improve my odds!”
+                                        </h4>
+                                        <div
+                                            class="d-flex align-items-center gap-3 mt-5"
+                                        >
+                                            <img
+                                                src="assets/img/review/2.png"
+                                                alt=""
+                                            />
+                                            <div class="text-black">
+                                                <p
+                                                    class="mb-0 fw-bold text-dark"
+                                                >
+                                                    James Carter
+                                                </p>
+                                                <small>Lotto Player</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="swiper-slide bg-white p-5 rounded-3 h-auto"
+                                >
+                                    <div
+                                        class="d-flex flex-column justify-content-between h-100"
+                                    >
+                                        <h4 class="text-black">
+                                            “Real-time AU Lotto updates helped
+                                            me never miss a draw or jackpot
+                                            announcement.”
+                                        </h4>
+                                        <div
+                                            class="d-flex align-items-center gap-3 mt-5"
+                                        >
+                                            <img
+                                                src="assets/img/review/1.png"
+                                                alt=""
+                                            />
+                                            <div class="text-black">
+                                                <p
+                                                    class="mb-0 fw-bold text-dark"
+                                                >
+                                                    Emily Thompson
+                                                </p>
+                                                <small>Jackpot Tracker</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="swiper-slide bg-white p-5 rounded-3 h-auto"
+                                >
+                                    <div
+                                        class="d-flex flex-column justify-content-between h-100"
+                                    >
+                                        <h4 class="text-black">
+                                            “This lotto assistant gives me
+                                            smarter combinations based on draw
+                                            history.”
+                                        </h4>
+                                        <div
+                                            class="d-flex align-items-center gap-3 mt-5"
+                                        >
+                                            <img
+                                                src="assets/img/review/3.png"
+                                                alt=""
+                                            />
+                                            <div class="text-black">
+                                                <p
+                                                    class="mb-0 fw-bold text-dark"
+                                                >
+                                                    William Scott
+                                                </p>
+                                                <small>Lotto Enthusiast</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section>
+                <div class="container">
+                    <img
+                        class="img-fluid"
+                        src="assets/img/offer/3.png"
+                        alt=""
+                    />
+                    <div class="row mt-5 align-items-center">
+                        <div class="col-md-6">
+                            <h2 class="fs-md-4 fs-3 pt-3">
+                                Enhance your AU Lotto strategy with smart tools
+                                and up-to-date insights.
+                            </h2>
+                        </div>
+                        <div class="col-md-6">
+                            <div
+                                class="accordion accordion-flush"
+                                id="accordionFlushExample"
+                            >
+                                <div class="accordion-item"></div>
+                                <h2
+                                    class="accordion-header border-bottom"
+                                    id="srgdgfdgdgg45"
+                                >
+                                    <button
+                                        class="accordion-button collapsed text-black"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#srgdgfdgdgg45tyuu"
+                                        aria-expanded="false"
+                                        aria-controls="srgdgfdgdgg45"
+                                        style="background: none"
+                                    >
+                                        <span class="fs-1 pe-3"
+                                            >How can I use lotto tools to
+                                            improve my gameplay?</span
+                                        >
+                                    </button>
+                                </h2>
+                                <div
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="srgdgfdgdgg45"
+                                    data-bs-parent="#accordionFlushExample"
+                                    id="srgdgfdgdgg45tyuu"
+                                >
+                                    <div class="accordion-body">
+                                        <p class="mb-0">
+                                            Smart tools can analyze previous AU
+                                            Lotto draws, help you choose
+                                            balanced numbers, and give you
+                                            timely alerts on the latest results
+                                            and jackpots.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item"></div>
+                                <h2
+                                    class="accordion-header border-bottom"
+                                    id="sxvdgrfhfh276"
+                                >
+                                    <button
+                                        class="accordion-button collapsed text-black"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#srgdgfdgdgg45tyuu5ghj"
+                                        aria-expanded="false"
+                                        aria-controls="sxvdgrfhfh276"
+                                        style="background: none"
+                                    >
+                                        <span class="fs-1 pe-3"
+                                            >Can I track my lotto numbers and
+                                            past results?</span
+                                        >
+                                    </button>
+                                </h2>
+                                <div
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="sxvdgrfhfh276"
+                                    data-bs-parent="#accordionFlushExample"
+                                    id="srgdgfdgdgg45tyuu5ghj"
+                                >
+                                    <div class="accordion-body">
+                                        <p class="mb-0">
+                                            Yes, you can save your number
+                                            history, monitor patterns, and
+                                            receive personalized lotto
+                                            statistics to refine your future
+                                            picks.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pb-0" id="blogs">
+                <div class="container">
+                    <p class="text-center text-gray fs-1">Our Blog</p>
+                    <h2 class="mx-auto text-center fs-lg-6 fs-md-5 w-lg-75">
+                        How to Use AI in AU Lotto: Tools, Strategies, and Tips
+                    </h2>
+                    <div class="row mt-7 gx-xl-7">
+                        <div
+                            class="col-md-4 text-center text-md-start h-auto mb-5"
+                        >
+                            <div
+                                class="d-flex justify-content-between flex-column h-100"
+                            >
+                                <a href="#">
+                                    <img
+                                        class="w-75 w-md-100 rounded-2"
+                                        src="assets/img/blog/1.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <div
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mt-3"
+                                >
+                                    <a href="#">
+                                        <p class="fw-bold mb-0 text-white">
+                                            Lotto Strategies
+                                        </p>
+                                    </a>
+                                    <p class="mb-0">November 22, 2024</p>
+                                </div>
+                                <a href="#">
+                                    <h5 class="mt-1 mb-3 fs-0 fs-md-1">
+                                        Using AI to Predict AU Lotto Number
+                                        Patterns.
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="col-md-4 text-center text-md-start h-auto mb-5"
+                        >
+                            <div
+                                class="d-flex justify-content-between flex-column h-100"
+                            >
+                                <a href="#">
+                                    <img
+                                        class="w-75 w-md-100 rounded-2"
+                                        src="assets/img/blog/2.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <div
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mt-3"
+                                >
+                                    <a href="#">
+                                        <p class="fw-bold mb-0 text-white">
+                                            Lotto Insights
+                                        </p>
+                                    </a>
+                                    <p class="mb-0">November 22, 2024</p>
+                                </div>
+                                <a href="#">
+                                    <h5 class="mt-1 mb-3 fs-0 fs-md-1">
+                                        Creating Smart Lotto Strategies with AI
+                                        Support.
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="col-md-4 text-center text-md-start h-auto mb-5"
+                        >
+                            <div
+                                class="d-flex justify-content-between flex-column h-100"
+                            >
+                                <a href="#">
+                                    <img
+                                        class="w-75 w-md-100 rounded-2"
+                                        src="assets/img/blog/3.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <div
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mt-3"
+                                >
+                                    <a href="#">
+                                        <p class="fw-bold mb-0 text-white">
+                                            Lotto Tools
+                                        </p>
+                                    </a>
+                                    <p class="mb-0">November 22, 2024</p>
+                                </div>
+                                <a href="#">
+                                    <h5 class="mt-1 mb-3 fs-0 fs-md-1">
+                                        Best AI Tools to Enhance Your AU Lotto
+                                        Experience.
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+        </main>
+        <!-- ===============================================-->
+        <!--    End of Main Content-->
+        <!-- ===============================================-->
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section id="contact">
+            <div class="container bg-dark overflow-hidden rounded-1">
+                <div
+                    class="bg-holder"
+                    style="background-image: url(assets/img/promo/promo-bg.png)"
+                ></div>
+                <!--/.bg-holder-->
+
+                <div class="px-5 py-7 position-relative">
+                    <h1
+                        class="text-center w-lg-75 mx-auto fs-lg-6 fs-md-4 fs-3 text-white"
+                    >
+                        Join the Excitement of AU Lotto – Get in Touch to Learn
+                        More
+                    </h1>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d817.8429727333997!2d138.59096109919736!3d-34.922208999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0cf2f7eb8b551%3A0x4fa7e78340031660!2sAustralian%20Centre%20for%20Business%20Growth%20at%20UniSA!5e0!3m2!1sen!2sau!4v1747856846976!5m2!1sen!2sau"
+                        style="border-radius: 30px"
+                        width="100%"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                    <form action="thanks.html" method="get" class="mt-3">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input
+                                    class="form-control mb-2 border-light fs-1"
+                                    type="text"
+                                    placeholder="First Name"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-6">
+                                <input
+                                    class="form-control mb-2 border-light fs-1"
+                                    type="text"
+                                    placeholder="Last Name"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-6">
+                                <input
+                                    class="form-control mb-2 border-light fs-1"
+                                    type="email"
+                                    placeholder="Your Email"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-6">
+                                <input
+                                    class="form-control mb-2 border-light fs-1"
+                                    type="number"
+                                    placeholder="Your Phone"
+                                />
+                            </div>
+                            <div
+                                class="col-md-12"
+                                style="display: flex; justify-content: center"
+                            >
+                                <button
+                                    type="submit"
+                                    class="btn btn-success text-dark fs-1"
+                                >
+                                    Join AU Lotto Now
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="pt-0" style="border-top: 1px solid lightgray">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 col-sm-4">
+                        <a href="index.html"
+                            ><h2 class="mt-5" style="font-weight: bold">
+                                BoomarooDraws
+                            </h2></a
+                        >
+                        <p class="w-lg-75 text-gray">
+                            Discover opportunities to win with AU Lotto draws
+                            and stay updated on results and winners.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <h3 class="fw-bold fs-1 mt-5 mb-4">Quick Links</h3>
+                        <ul class="list-unstyled">
+                            <li class="my-3 col-md-4">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="index.html#about">About Us</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="index.html#blogs">Lotto Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <h3 class="fw-bold fs-1 mt-5 mb-4">Resources</h3>
+                        <ul class="list-unstyled">
+                            <li class="my-3 col-md-4">
+                                <a href="index.html#contact">Contact</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="privacy-policy.html">Privacy Policy</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="cookie-policy.html">Cookie Policy</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="terms-of-use.html">Terms of Use</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-gray">boomaroo_draws@gmail.com</p>
+                <p class="text-gray">
+                    Via Massaciuccoli, 99/a, 00199 Roma RM, Australia
+                </p>
+                <p class="text-gray">+61883020484</p>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to ensure you get the best and
+                    most relevant experience while exploring AU Lotto content.
+                    <a href="cookie-policy.html">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- ===============================================-->
+        <!--    JavaScripts-->
+        <!-- ===============================================-->
+        <!-- Popper.js -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
+            integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <!-- Bootstrap 5.3.3 -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- AnchorJS -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.3.1/anchor.min.js"
+            integrity="sha512-zPB79j2C+3sFS9zcA3vg/z6bVKzJVEyu9pY5w89akQRys76zpAT2t6S3wZKla3QQ14O5l/Yt0RUQ/DHXx82Y5g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <!-- Lodash -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+            integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <!-- FontAwesome -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"
+            integrity="sha512-xgIrH5DRuEOcZK5cPtVXx/WSp5DTir2JNcKE5ahV2u51NCTD9UDxbQgZHYHVBlPc4H8tug6BZTYIl2RdA/X0Vg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <!-- Prism.js -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"
+            integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <!-- Інші скрипти (залишити без змін) -->
+        <script src="vendors/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/js/theme.js"></script>
+        <script src="assets/js/cookiebanner.js"></script>
+    </body>
+</html>
